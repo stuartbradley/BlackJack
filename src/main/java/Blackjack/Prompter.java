@@ -13,33 +13,28 @@ public class Prompter {
         System.out.println("Sorry you are not old enough to gamble");
     }
     public static void showHand(ArrayList cards, String name){
-        if(Card.isCardOver10OrAnAce((String) cards.get(0))){
+        if(Card.isCardOver10OrAnAce((String) cards.get(0)) && Card.isCardOver10OrAnAce((String) cards.get(1))) {
             showPictureCardName(cards.get(0).toString(), name);
+            System.out.print(" and the ");
+            showPictureCardName(cards.get(1).toString(), "");
+        }else if(Card.isCardOver10OrAnAce((String) cards.get(0)) && !Card.isCardOver10OrAnAce((String) cards.get(1))){
+            showPictureCardName(cards.get(0).toString(), name);
+            System.out.print(" and the " + cards.get(1));
+
+        }else if(!Card.isCardOver10OrAnAce((String) cards.get(0)) && Card.isCardOver10OrAnAce((String) cards.get(1))){
+            System.out.println(name + " received the " + cards.get(0) +" and the ");
+            showPictureCardName((String) cards.get(1), "");
+        }else {
+            System.out.println("You have received the " + cards.get(0) + " and the " + cards.get(1));
         }
-
-
-
-
-
-        System.out.println("You have received the " + cards.get(0) +" and the " + cards.get(1));
-
-
-
-
-
-
     }
 
-
-
-
-
-
-    public static void showDealersFirstCard(Dealer dealer){
-        if(Card.isCardOver10OrAnAce(dealer.getCard1())){
+    public static void showDealersFirstCard(Dealer dealer) {
+        if (Card.isCardOver10OrAnAce(dealer.getCard1())) {
             showPictureCardName(dealer.getCard1(), "Dealer");
+        } else {
+            System.out.println("The dealer has the " + dealer.getCard1());
         }
-        System.out.println("The dealer has the " + dealer.getCard1());
     }
     public static void showPlayerHandTotal(Player player) {
         System.out.println("Your hand adds up to " + player.getPlayersHandTotal());
@@ -93,16 +88,16 @@ public class Prompter {
                 " which makes " + dealer.getDealersHandTotal());
     }
 
-    public static void showPictureCardName(String card, String user){
+    public static void showPictureCardName(String card, String name){
          int cardNumber = Card.getNumberFromCard(card.toString());
             switch (cardNumber){
-                case 11: System.out.println(user + " received the Jack of " + Card.getSuitFromCard(card.toString()));
+                case 11: System.out.println(name +" received the Jack of " + Card.getSuitFromCard(card.toString()));
                 break;
-                case 12: System.out.println(user + " received the Queen of " + Card.getSuitFromCard(card.toString()));
+                case 12: System.out.println(name +" received the Queen of " + Card.getSuitFromCard(card.toString()));
                 break;
-                case 13: System.out.println(user + " received the King of " + Card.getSuitFromCard(card.toString()));
+                case 13: System.out.println(name +" received the King of " + Card.getSuitFromCard(card.toString()));
                 break;
-                case 1: System.out.println(user +  " received the Ace of " + Card.getSuitFromCard(card.toString()));
+                case 1: System.out.println(name +" received the Ace of " + Card.getSuitFromCard(card.toString()));
             }
     }
 }

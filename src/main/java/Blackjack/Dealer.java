@@ -1,17 +1,11 @@
 package Blackjack;
 
 import java.util.ArrayList;
-import java.util.Scanner;
-import java.util.concurrent.TimeUnit;
 
 /**
  * Created by stuartbradley on 29/05/2017.
  */
 public class Dealer{
-    private int card1;
-    private int card2;
-    private int cardsuit1;
-    private int cardsuit2;
     private int dealersHandTotal;
     ArrayList cards = new ArrayList();
 
@@ -44,10 +38,10 @@ public class Dealer{
 
     public void getStartingCards(ArrayList deck){
         cards.add(deck.get(0));
-        card1 = Card.getNumberFromCard(deck.get(0).toString());
+        Card.getNumberFromCard(deck.get(0).toString());
         deck.remove(0);
         cards.add(deck.get(0));
-        card2 = Card.getNumberFromCard(deck.get(0).toString());
+        Card.getNumberFromCard(deck.get(0).toString());
         deck.remove(0);
     }
 }

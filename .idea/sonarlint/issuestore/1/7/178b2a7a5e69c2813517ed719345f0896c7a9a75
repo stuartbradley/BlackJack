@@ -1,0 +1,30 @@
+
+Wsquid:S1147";Remove this call to "exit" or ensure it is really required.(¯á8Š£÷ÍÅ+
+‘squid:S1319"pThe type of the "cards" object should be an interface such as "List" rather than the implementation "ArrayList".(Ä°´šÿÿÿÿÿ8‚™ÎÅ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ú¦è¤úÿÿÿÿ8Š£÷ÍÅ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(ô¨³ãùÿÿÿÿ8‚™ÎÅ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.( çä«ÿÿÿÿÿ8Ñ¢¡ÎÅ+
+dsquid:S2583"CChange this condition so that it does not always evaluate to "true"(ÉÒª²øÿÿÿÿ8‰·¶ÎÅ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ã×Ï©úÿÿÿÿ8Š£÷ÍÅ+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(½³µî8Š£÷ÍÅ+
+Wsquid:S1147";Remove this call to "exit" or ensure it is really required.(¯á8‰·¶ÎÅ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ôì¶÷øÿÿÿÿ8‰·¶ÎÅ+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(È…²8‰·¶ÎÅ+
+Wsquid:S1147";Remove this call to "exit" or ensure it is really required.(¯á8Š£÷ÍÅ+
+‘squid:S1319"pThe type of the "cards" object should be an interface such as "List" rather than the implementation "ArrayList".(şŸ¦“øÿÿÿÿ8Ñ¢¡ÎÅ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(ı«Éµÿÿÿÿÿ8ñŞ¹ÍÅ+
+Wsquid:S1147";Remove this call to "exit" or ensure it is really required.(¯á8Š£÷ÍÅ+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¨ûáùÿÿÿÿ
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(§êé…úÿÿÿÿ8‚™ÎÅ+
+[squid:S1118":Add a private constructor to hide the implicit public one.(ôØù˜ıÿÿÿÿ8’Ë¸ÎÅ+
+U
+squid:S106";Replace this usage of System.out or System.err by a logger.(…«ÃS8Ñ¢¡ÎÅ+

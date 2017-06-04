@@ -1,0 +1,12 @@
+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Š™Ñşÿÿÿÿ8ÿŒÊÅ+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¨ûáùÿÿÿÿ
+Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(î·Úâ8ïúÉÅ+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(é‹8±´üÊÅ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(ú™Ûœüÿÿÿÿ8È•§ÉÅ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.( çä«ÿÿÿÿÿ8ØÈ‹ÊÅ+
+Œsquid:S1319"pThe type of the "cards" object should be an interface such as "List" rather than the implementation "ArrayList".(¢ÃŠ8òÉÅ+

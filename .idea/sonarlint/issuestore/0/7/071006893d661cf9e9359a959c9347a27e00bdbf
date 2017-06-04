@@ -1,0 +1,17 @@
+
+Œsquid:S1319"pThe type of the "cards" object should be an interface such as "List" rather than the implementation "ArrayList".(¢ÃŠ8ÃÈİÅÅ+
+Nsquid:S1135"2Complete the task associated to this TODO comment.(…ïœ†8µ¼’ÎÅ+
+Wsquid:S1147";Remove this call to "exit" or ensure it is really required.(¯á8˜ÓÍÅ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(©»úŸüÿÿÿÿ8Åà”°Å+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ì´¹ì8‡Ë¶Å+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ûê‡8Úª™°Å+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(ğİ¼Ñıÿÿÿÿ8ÜÛÁ¶Å+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ğ™È¤8˜ÓÍÅ+
+csquid:UselessImportCheck":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş8†éœÎÅ+
+Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(î·Úâ8£ÙËÅ+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¨ûáùÿÿÿÿ

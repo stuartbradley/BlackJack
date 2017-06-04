@@ -1,0 +1,7 @@
+
+Ysquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ãĞ¾´Å+
+vsquid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "CardNumber".(Ö£ı
+ksquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö£ı
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(ıæº¬8†±‰¯Å+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¨ûáùÿÿÿÿ
+Ysquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ñø…¨Å+

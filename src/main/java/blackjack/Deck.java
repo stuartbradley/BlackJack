@@ -1,4 +1,4 @@
-package Blackjack;
+package blackjack;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -19,19 +19,19 @@ public class Deck {
     }
 
     public Deck(){
-        setSuits();
-        setCardNumber();
+        makeSuits();
+        makeCardNumber();
         shuffleDeck(makeDeck());
     }
 
-    public void setSuits(){
+    public void makeSuits(){
         suits.add("hearts");
         suits.add("diamonds");
         suits.add("clubs");
         suits.add("spades");
     }
 
-    public void setCardNumber(){
+    public void makeCardNumber(){
         for(int i = 1; i < 14; i++) {
             cardNumber.add(i);
         }

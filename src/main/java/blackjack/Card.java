@@ -1,4 +1,4 @@
-package Blackjack;
+package blackjack;
 
 /**
  * Created by stuartbradley on 30/05/2017.

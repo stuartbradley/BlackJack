@@ -1,4 +1,4 @@
-package Blackjack;
+package blackjack;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
  * Created by stuartbradley on 29/05/2017.
  */
 public class Game {
-    public static void startGame(Dealer dealer, Player player, ArrayList deck) throws InterruptedException{
+    public Game(Dealer dealer, Player player, ArrayList deck) throws InterruptedException {
         Prompter.showStartingGameMessage();
         player.getStartingCards(deck);
         dealer.getStartingCards(deck);
@@ -58,8 +58,6 @@ public class Game {
         deck.remove(0);
         Prompter.showDealerHandTotal(dealer);
     }
-
-
 
     public static void hitOrStick(Player player,ArrayList deck) throws InterruptedException{
         Scanner scanner = new Scanner(System.in);

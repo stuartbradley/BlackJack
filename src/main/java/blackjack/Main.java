@@ -1,4 +1,4 @@
-package Blackjack;
+package blackjack;
 
 
 //TODO
@@ -6,15 +6,6 @@ package Blackjack;
 
 //TODO
 //chance to spilt or double up
-
-//TODO
-//make Dealer class
-
-//TODO
-//make start of game method.
-
-//TODO
-//make cardDeck of cards.
 
 //TODO
 //ace = 1 or 11.
@@ -26,7 +17,7 @@ public class Main {
         Deck deck = new Deck();
         Dealer dealer = new Dealer();
         Player player = new Player();
-        Game.startGame(dealer, player,deck.getCardDeck());
+        Game game = new Game(dealer, player,deck.getCardDeck());
     }
 
 }

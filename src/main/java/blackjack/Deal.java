@@ -1,8 +1,6 @@
-package Blackjack;
+package blackjack;
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
 
 /**
  * Created by stuartbradley on 28/05/2017.

@@ -1,4 +1,4 @@
-package Blackjack;
+package blackjack;
 
 import java.util.ArrayList;
 
@@ -38,10 +38,8 @@ public class Dealer{
 
     public void getStartingCards(ArrayList deck){
         cards.add(deck.get(0));
-        Card.getNumberFromCard(deck.get(0).toString());
         deck.remove(0);
         cards.add(deck.get(0));
-        Card.getNumberFromCard(deck.get(0).toString());
         deck.remove(0);
     }
 }
